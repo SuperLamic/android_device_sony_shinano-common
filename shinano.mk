@@ -43,14 +43,6 @@ PRODUCT_COPY_FILES += \
     $(COMMON_PATH)/rootdir/init.qcom.rc:root/init.qcom.rc \
     $(COMMON_PATH)/rootdir/ueventd.qcom.rc:root/ueventd.qcom.rc
 
-# Camera (stock .575 blobs)
-PRODUCT_PACKAGES += \
-	tad_static \
-	wait4tad_static \
-	libshims_wvm \
-	libshims_signal \
-	libshims_idd
-
 # ANT+
 PRODUCT_PACKAGES += \
     AntHalService \

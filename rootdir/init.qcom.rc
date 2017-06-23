@@ -16,6 +16,7 @@
 #
 
 import /init.device.rc
+import /init.camera.rc
 import /init.common.rc
 
 on init
